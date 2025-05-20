@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRightToLine, ChevronRight } from "lucide-react";
+import {   ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 export default function ProductHighlight() {
@@ -13,7 +13,7 @@ export default function ProductHighlight() {
         priority
         objectFit="cover"
         objectPosition="left"
-        className="w-full h-[260px] object-cover object-left rounded-none"
+        className="w-full h-[260px] object-cover   object-left rounded-none"
       />
 
       {/* Label Highlight */}
