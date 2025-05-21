@@ -56,20 +56,20 @@ export default function Features() {
   ];
 
   return (
-    <section className="bg-[#2F241F] w-full min-h-96 px-6 py-8 text-white">
-      <div className="flex w-80 justify-center mx-auto">
-        <h1 className="text-sm/5 text-[#E5F0B6] mb-4 text-center">WHY CHOOSE US?</h1>
+    <section className="bg-[#2F241F] md:gap-10 flex flex-col justify-center md:py-[72px]   md:h-[486px]  w-full min-h-96 px-6 py-8  md:px-[142px]     text-white">
+      <div className="  w-80    justify-center  ">
+        <h1 className="text-sm/5 md:text-2xl   text-[#E5F0B6] mb-4 md:text-left text-center">WHY CHOOSE US?</h1>
       </div>
-
-      <div className="flex justify-center m-auto flex-col text-[#E5F0B6] items-center">
-        <h2 className="text-2xl font-bold mb-4 text-center">
+       <h2 className="text-2xl md:text-[64px]  md:text-left font-bold text-center">
           We care about details and the quality of our products
         </h2>
-        <ul className="space-y-4   mt-6">
+      <div className="flex      md:text-left  m-auto md:h-1/2 text-wrap  flex-col text-[#E5F0B6] items-center">
+       
+        <ul className="space-x-4  md:gap-16  md:flex md:flex-row   mt-6">
           {data.map((item) => (
             <li
               key={item.id}
-              className="flex items-center gap-4 text-sm/5 font-bold uppercase text-left"
+              className="flex items-center gap-4 text-sm/5 md:text-2xl/[36px] font-bold uppercase text-left"
             >
               {item.svg}
               {item.title}

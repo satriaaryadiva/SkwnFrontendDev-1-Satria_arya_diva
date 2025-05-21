@@ -47,7 +47,7 @@ export default function BestSeller() {
       <div className="flex justify-between items-center mb-6">
         <div>
           <p className="text-gray-400 text-sm font-medium">Categories</p>
-          <h2 className="text-2xl font-semibold">This months best seller</h2>
+          <h2 className="text-2xl font-semibold p-2  text-wrap">This months best seller</h2>
         </div>
         <button className="bg-lime-100 text-nowrap text-black px-4 py-2 rounded-xl  h-10  w-24  text-xs font-normal">
           SEE MORE

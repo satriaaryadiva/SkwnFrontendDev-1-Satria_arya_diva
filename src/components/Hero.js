@@ -39,11 +39,11 @@ export default function Hero() {
           className="w-full hidden md:block h-[260px] md:h-[709px] md:w-full object-cover object-center rounded-none"
         />
         {/* Info Card */}
-        <div className="absolute bottom-4 left-4 rounded-xl p-4 w-64">
-          <div className="text-sm text-[#2F241F] opacity-80 bg-slate-100 px-2 py-1 md:py-2 md:px-4 w-fit rounded mb-2">
+        <div className="absolute bottom-4 md:bottom-15 left-4 rounded-xl p-4 w-64">
+          <div className="text-sm  md:text-2xl text-[#2F241F] opacity-80 bg-slate-100 px-2 py-1 md:py-2 md:px-4 w-fit rounded mb-2">
             $329
           </div>
-          <h2 className="text-lg font-semibold text-white mb-2">
+          <h2 className="text-lg md:text-[64px] font-semibold text-white mb-2">
             Pösht Sofa
           </h2>
           <button className="bg-[#2F241F] text-white text-xs flex items-center justify-between px-4 py-2 rounded-xl">
