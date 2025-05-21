@@ -25,7 +25,7 @@ npm run dev
 ````
 ### 4. Buka di Browser
 ````
- 
+localhost:3000
 ````
 ### TOOLS
 ````
