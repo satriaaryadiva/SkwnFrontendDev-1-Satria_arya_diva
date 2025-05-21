@@ -32,5 +32,6 @@ localhost:3000
 1.ReactJS + Nextjs (mengunakan next js  , dan membuat api dari next js)
 2.Rest api = https://decoor.vercel.app/api/bestSeller/route.js
 3.TailwindCSS (mengunakan tailwindcss , dan mengunakan md , sm  untuk breakpont desktop dan tablet )
-4.Vercel (Sebagai deploy host gratis)
+4.axios 
+5.Vercel (Sebagai deploy host gratis)
  
