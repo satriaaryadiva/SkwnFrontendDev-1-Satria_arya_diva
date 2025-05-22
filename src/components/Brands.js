@@ -1,15 +1,34 @@
 import Image from "next/image";
 
 export default function Brands() {
-  return (
-    <section className="py-6 bg-amber-50 text-center">
-     
-      <div className="flex justify-center gap-6 mt-4 flex-wrap">
-       
-      
-
-
+  const images =  [
+    {id: 1, src: "/brands/gusto.png"},
+    { id: 2, src: "/brands/stripe.png"},
+    { id: 3, src: "/brands/tree.png"},
+    { id: 4, src: "/brands/upwork.png"},
    
+  ];
+
+  return (
+    <section className="py-6 bg-[#FCFAFA] w-full md:py-20 md:px-36 md:flex nd:flex-row  gap-37 justify-center items-center align-middle text-center">
+    <div className=" justify-center hidden md:display md:flex flex-col text-left items-center gap-4">
+       <h1 className="text-8xl/[100%] font-bold   uppercase text-[#2F241F]">25+</h1>
+       <h1  className="text-xl/[100%] font-bold   uppercase text-[#2F241F]">    Partner brands </h1>
+      </div>
+      <div className="  hidden space-x-6 md:flex flex-row justify-center gap-6 mt-4 flex-wrap">
+        {images.map(({id, src}) => (
+          <Image
+            key={id}
+            src={src}
+            alt="brand"
+            width={106}
+            height={52}
+          />
+        ))}
+
+      </div>
+
+      <div className="flex flex-row md:hidden justify-center gap-6 mt-4 flex-wrap">
 
         <svg width="375" height="165" viewBox="0 0 375 165" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="375" height="165" fill="#FCFAFA"/>

@@ -22,7 +22,7 @@ export default function BestSeller() {
       slides: { perView: 3, spacing: 12 },
     },
     "(max-width: 640px)": {
-      slides: { perView: 2, spacing: 8 }, // ubah dari 1 jadi 2
+      slides: { perView: 2, spacing: 12 }, // ubah dari 1 jadi 2
     },
   },
 });
@@ -57,7 +57,7 @@ export default function BestSeller() {
       <div className="relative">
         <button
           onClick={() => instanceRef.current?.prev()}
-          className="absolute z-10 left-0 top-1/2 -translate-y-1/2 bg-[#D3E76A] rounded-full w-13 h-13 flex items-center justify-center cursor-pointer shadow-md"
+          className="absolute md:z-10 z-10 left-0 top-1/2 -translate-y-1/2 bg-[#D3E76A] rounded-full w-13 h-13 flex items-center justify-center cursor-pointer shadow-md"
           aria-label="Previous slide"
         >
           <ChevronLeft className="text-black" />
@@ -65,7 +65,7 @@ export default function BestSeller() {
 
         <button
           onClick={() => instanceRef.current?.next()}
-          className="absolute z-10 right-0 top-1/2 -translate-y-1/2 bg-[#D3E76A] rounded-full w-13 h-13 flex items-center justify-center cursor-pointer shadow-md"
+          className="absolute md:z-10 z-10 right-0 top-1/2 -translate-y-1/2 bg-[#D3E76A] rounded-full w-13 h-13 flex items-center justify-center cursor-pointer shadow-md"
           aria-label="Next slide"
         >
           <ChevronRight className="text-black" />
