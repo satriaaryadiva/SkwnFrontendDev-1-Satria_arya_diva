@@ -2,8 +2,8 @@ import { Mail } from "lucide-react";
 
 export default function Subscribe() {
   return (
-    <section className=" px-4  flex flex-row md:flex-col  md:px-36  md:py-20 items-center md:items-start justify-between bg-[#FCFAFA] py-9  md:gap-11 md:text-left">
-    <div className="flex flex-col  md:justify-start justify-center text-[#2F241F] gap-3 md:gap-10 ">
+    <section className=" px-4  flex flex-col      md:px-36  md:py-20 items-center md:items-start justify-between bg-[#FCFAFA] py-9  md:gap-11 md:text-left">
+    <div className="flex md:flex-col flex-col  md:justify-start justify-center text-[#2F241F] gap-3 md:gap-10 ">
      <h1 className="text-sm/5  tracking-widest uppercase  text-[#2F241F] md:text-2xl "> Limited Deal </h1>
       <h3 className="text-lg/7 font-bold text-[#2F241F] text-wrap md:text-6xl">Become a member and get 10% off your first purchase</h3>
       </div>

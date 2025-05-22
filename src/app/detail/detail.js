@@ -1,9 +1,10 @@
 'use client'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { getFurnitureProducts } from '../lib/api'
+import { getFurnitureProducts } from '../../lib/api'
 
-export default function ProductSection() {
+
+export default function Detail () {
   const [products, setProducts] = useState([])
 
   useEffect(() => {

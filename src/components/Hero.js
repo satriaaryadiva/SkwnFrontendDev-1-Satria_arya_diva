@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="w-full flex flex-col md:flex-row items-center justify-between md:h-[709px] gap-10">
+    <section className="w-full flex flex-col md:flex-row items-centerjustify-between md:h-[709px] gap-10">
       {/* LEFT: Text Section */}
       <div className="md:w-2/3 md:pl-36 md:gap-12 flex flex-col gap-12 px-6 md:px-20 py-12 justify-center">
         <h1 className="text-3xl md:text-7xl font-bold text-[#2F241F] mb-6 leading-tight md:text-left text-center">
@@ -46,7 +46,7 @@ export default function Hero() {
           <h2 className="text-lg md:text-[64px] font-semibold text-white mb-2">
             Pösht Sofa
           </h2>
-          <button className="bg-[#2F241F] text-white text-xs flex items-center justify-between px-4 py-2 rounded-xl">
+          <button className="bg-[#2F241F]  md:w-[197px] md:px-4  md:h-14  md:py-3 text-white text-xs flex items-center justify-between px-4 py-2 rounded-xl">
             View Details <ChevronRight size={16} />
           </button>
         </div>

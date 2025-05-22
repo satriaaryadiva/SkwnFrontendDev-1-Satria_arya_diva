@@ -6,7 +6,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="flex justify-around align-middle items-center min-w-full  min-h-16 p-4    sm:shadow   sm:h-36">
+    <nav className="flex justify-around align-middle items-center min-w-full  min-h-16 p-4    sm:shadow   md:shadow-none bg-white md:bg-transparent rounded-lg md:h-28">
       <div className="text-lg  font-bold">
 <svg width="108" height="32" viewBox="0 0 108 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5.10586 13.4471C5.10586 8.06883 5.10586 5.37971 6.3966 3.44798C6.95537 2.61172 7.67339 1.8937 8.50966 1.33493C10.4414 0.0441895 13.1305 0.0441895 18.5087 0.0441895C23.887 0.0441895 26.5761 0.0441895 28.5078 1.33493C29.3441 1.8937 30.0621 2.61172 30.6209 3.44798C31.9116 5.37971 31.9116 8.06883 31.9116 13.4471C31.9116 18.8253 31.9116 21.5144 30.6209 23.4462C30.0621 24.2824 29.3441 25.0004 28.5078 25.5592C26.5761 26.85 23.887 26.85 18.5087 26.85C13.1305 26.85 10.4414 26.85 8.50966 25.5592C7.67339 25.0004 6.95537 24.2824 6.3966 23.4462C5.10586 21.5144 5.10586 18.8253 5.10586 13.4471Z" fill="#553B33"/>
